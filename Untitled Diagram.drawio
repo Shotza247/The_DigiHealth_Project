@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Z1TlMchcK50pzvUaHnbn">
-    <mxGraphModel dx="2455" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8208" dy="6408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -786,7 +786,7 @@
         <mxCell id="MAwl2OnnpyVytO2v4TgS-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;li&gt;Define attributes&lt;/li&gt;&lt;li&gt;Define PKs and FKs&lt;/li&gt;&lt;li&gt;Establish relationships/cardinality&lt;/li&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="160" x="495" y="1642.5" as="geometry" />
         </mxCell>
-        <mxCell id="MAwl2OnnpyVytO2v4TgS-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 100px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Logical Model V2.0&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 100px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dependency Analysis&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="MAwl2OnnpyVytO2v4TgS-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 100px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Logical Model V2.0&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 100px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dependency Analysis&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="275" width="2160" x="2504.9300000000003" y="-295" as="geometry" />
         </mxCell>
         <mxCell id="MAwl2OnnpyVytO2v4TgS-192" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;li&gt;Define attributes&lt;/li&gt;&lt;li&gt;Define PKs and FKs&lt;/li&gt;&lt;li&gt;Establish relationships/cardinality&lt;/li&gt;&lt;/div&gt;" vertex="1">
@@ -2208,8 +2208,14 @@
         <mxCell id="OT9WE7ERhvFNiuSL_2hC-22" parent="OT9WE7ERhvFNiuSL_2hC-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-style: normal; font-weight: 400; line-height: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;✅ 1NF checkpoint&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;p&gt;The important transformation has been:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Before normalization: 6 entities&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;→ resolve repeated specializations and longitudinal clinical data&lt;/p&gt;&lt;p&gt;→ &lt;strong&gt;After 1NF: 12 entities&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160.07" width="726.19" as="geometry" />
         </mxCell>
-        <mxCell id="OT9WE7ERhvFNiuSL_2hC-27" connectable="0" parent="1" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="521.85" width="772.56" x="2852.33" y="2150" as="geometry" />
+        <mxCell id="VpzSjvloVnrgPybgbCj5-876" connectable="0" parent="1" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="1383.66" width="2817.67" x="-9.060000000000002" y="2002.57" as="geometry" />
+        </mxCell>
+        <mxCell id="VpzSjvloVnrgPybgbCj5-874" connectable="0" parent="VpzSjvloVnrgPybgbCj5-876" style="group" value="" vertex="1">
+          <mxGeometry height="1186.23" width="2817.67" y="197.43000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="OT9WE7ERhvFNiuSL_2hC-27" connectable="0" parent="VpzSjvloVnrgPybgbCj5-874" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="521.85" width="772.56" y="4.380000000000109" as="geometry" />
         </mxCell>
         <mxCell id="MAwl2OnnpyVytO2v4TgS-356" parent="OT9WE7ERhvFNiuSL_2hC-27" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=33;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;u&gt;&lt;font style=&quot;font-size: 39px;&quot; face=&quot;Times New Roman&quot;&gt;Second_Normal_Form phase1.0&lt;/font&gt;&lt;/u&gt;" vertex="1">
           <mxGeometry height="54.220364741750366" width="631.1070615034168" x="36.41002277904328" as="geometry" />
@@ -2217,8 +2223,8 @@
         <mxCell id="OT9WE7ERhvFNiuSL_2hC-26" parent="OT9WE7ERhvFNiuSL_2hC-27" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;fontSize=16;" value="&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;We are no longer looking for repeating values. We are looking for &lt;strong&gt;partial dependencies on composite primary keys&lt;/strong&gt;.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;u&gt;2 NF requirements&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: start; font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;Every non-key attribute depends on the &lt;strong&gt;whole primary key&lt;/strong&gt;, not just part of a composite key.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;There are &lt;/span&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;no non-key attributes&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;- 10 /12 entities meet this requirement (No partial key dependency + 1NF passed)&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;- Introduce non-key attributes&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;- AppointmentDoctor (partial-key dependency in composite key): AppointmentID+DoctorID = PK&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;We don&#39;t need both IDs to know the appointment date (values for the non-key attribute)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;= 2NF passed.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;- SpecializationDoctor&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;(partial-key dependency in composite key):&amp;nbsp;&lt;/span&gt;SpecializationID&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;+DoctorID = PK&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); line-height: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="478.7655548780488" width="608.7755808656036" x="48.546697038724375" y="43.08444512195123" as="geometry" />
         </mxCell>
-        <mxCell id="VpzSjvloVnrgPybgbCj5-1" connectable="0" parent="1" style="group;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="1181.85" width="1013.61" x="3528.78" y="2150" as="geometry" />
+        <mxCell id="VpzSjvloVnrgPybgbCj5-1" connectable="0" parent="VpzSjvloVnrgPybgbCj5-874" style="group;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="1181.85" width="1013.61" x="676.4500000000003" y="4.380000000000109" as="geometry" />
         </mxCell>
         <mxCell id="VpzSjvloVnrgPybgbCj5-2" parent="VpzSjvloVnrgPybgbCj5-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=33;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;u&gt;&lt;font style=&quot;font-size: 39px;&quot; face=&quot;Times New Roman&quot;&gt;Third_Normal_Form phase 2.0&lt;/font&gt;&lt;/u&gt;" vertex="1">
           <mxGeometry height="71.88601102941178" width="828.0216793653287" x="47.770481501845886" as="geometry" />
@@ -2318,8 +2324,8 @@
         <mxCell id="VpzSjvloVnrgPybgbCj5-857" parent="VpzSjvloVnrgPybgbCj5-852" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Integrity Risk" vertex="1">
           <mxGeometry height="26.573822139481624" width="92.06" x="99.52000000000001" y="70.56235572103687" as="geometry" />
         </mxCell>
-        <mxCell id="VpzSjvloVnrgPybgbCj5-842" connectable="0" parent="1" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="1186.23" width="1180.82" x="4489.18" y="2145.62" as="geometry" />
+        <mxCell id="VpzSjvloVnrgPybgbCj5-842" connectable="0" parent="VpzSjvloVnrgPybgbCj5-874" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="1186.23" width="1180.82" x="1636.8500000000004" as="geometry" />
         </mxCell>
         <mxCell id="VpzSjvloVnrgPybgbCj5-633" parent="VpzSjvloVnrgPybgbCj5-842" style="shape=table;startSize=31;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Appointment" vertex="1">
           <mxGeometry height="181.62277759716716" width="164.56991899877195" x="425.5032612935127" y="367.89657306548617" as="geometry" />
@@ -3141,8 +3147,8 @@
         <mxCell id="VpzSjvloVnrgPybgbCj5-873" parent="VpzSjvloVnrgPybgbCj5-842" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;perimeter=cloudPerimeter;" value="Task 1: Logical Modelling Complete" vertex="1">
           <mxGeometry height="123.71" width="171.79" x="980.8199999999997" y="1014.3800000000006" as="geometry" />
         </mxCell>
-        <mxCell id="VpzSjvloVnrgPybgbCj5-858" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="110.34" width="278.81" x="4020" y="3190" as="geometry" />
+        <mxCell id="VpzSjvloVnrgPybgbCj5-858" connectable="0" parent="VpzSjvloVnrgPybgbCj5-874" style="group" value="" vertex="1">
+          <mxGeometry height="110.34" width="278.81" x="1167.67" y="1044.38" as="geometry" />
         </mxCell>
         <mxCell id="VpzSjvloVnrgPybgbCj5-866" parent="VpzSjvloVnrgPybgbCj5-858" style="whiteSpace=wrap;html=1;rounded=1;" value="Appointment" vertex="1">
           <mxGeometry height="23.701847343548625" width="93.12291249164994" y="86.63815265645131" as="geometry" />
@@ -3170,6 +3176,9 @@
         </mxCell>
         <mxCell id="VpzSjvloVnrgPybgbCj5-865" edge="1" parent="VpzSjvloVnrgPybgbCj5-858" source="VpzSjvloVnrgPybgbCj5-866" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;" target="VpzSjvloVnrgPybgbCj5-860" value="">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpzSjvloVnrgPybgbCj5-875" parent="VpzSjvloVnrgPybgbCj5-876" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 100px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Logical Model V3.0 Normalization Forms&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="275" width="2245" x="174.06" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

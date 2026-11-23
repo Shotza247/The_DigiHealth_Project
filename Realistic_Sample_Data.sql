@@ -271,13 +271,9 @@ INSERT INTO Prescription
     )
 VALUES
     (1, 'Amlodipine', '5 mg', 'Once daily'),
-
     (1, 'Atorvastatin', '20 mg', 'Once daily'),
-
     (2, 'Amlodipine', '5 mg', 'Once daily'),
-
     (3, 'Sumatriptan', '50 mg', 'As required for migraine'),
-
     (4, 'Metformin', '500 mg', 'Twice daily');
 
 
@@ -300,9 +296,57 @@ INSERT INTO Billing
     )
 VALUES
     (1, '2026-09-10', 1450.00, 'Paid', 'Card'),
-
     (2, '2026-10-14', 850.00, 'Paid', 'Medical Aid'),
-
     (3, '2026-10-20', 1650.00, 'Pending', 'Medical Aid'),
-
     (4, '2026-11-05', 1200.00, 'Paid', 'Card');
+
+-- ============================================================
+-- 13. CANCELLED APPOINTMENTS
+--
+-- Cancelled appointments remain in Appointment for history.
+-- They have doctor assignments but no:
+--   ClinicalEntry
+--   Diagnosis
+--   Treatment
+--   Prescription
+--   Billing
+-- ============================================================
+
+INSERT INTO Appointment
+    (
+        PatientID,
+        AppointmentDateTime,
+        AppointmentStatus,
+        ReasonForVisit
+    )
+VALUES
+    (2, '2026-11-12 15:00:00',
+     'Cancelled',
+     'Follow-up consultation for recurring headaches'),
+
+    (3, '2026-11-18 10:00:00',
+     'Cancelled',
+     'Diabetes monitoring and medication review');
+
+INSERT INTO Appointment (
+    PatientID,
+    AppointmentDateTime,
+    AppointmentStatus,
+    ReasonForVisit
+)
+VALUES (
+    1,
+    '2026-12-10 10:00:00',
+    'InvalidStatus',
+    'Constraint test'
+);
+
+-- Assign doctors to the appointments.
+-- Assuming the previous inserts generated AppointmentIDs 1-6,
+-- these two appointments will be IDs 7 and 8.
+
+INSERT INTO AppointmentDoctor
+    (AppointmentID, DoctorID)
+VALUES
+    (7, 3),
+    (8, 4);
